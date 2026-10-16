@@ -1,0 +1,21 @@
+{
+  "name": "daycraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A considered space for tasks, habits, planning, and deep focus.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.cjs",
+    "vendor": "node scripts/vendor.mjs"
+  },
+  "dependencies": {
+    "@alpinejs/focus": "3.14.9",
+    "alpinejs": "3.14.9",
+    "chart.js": "4.5.0",
+    "motion": "12.23.24"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  },
+  "engines": { "node": ">=20" }
+}
